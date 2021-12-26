@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "instruction.steps.1.title",
+        "body": "instruction.steps.1.body",
+        "actionText": "instruction.steps.1.action-text",
+        "actionLink": "https://metamask.io/",
+        "icon": "/config/images/metamask.svg"
+    },
+    {
+        "id": 2,
+        "title": "instruction.steps.2.title",
+        "body": "instruction.steps.2.body",
+        "actionText": "instruction.steps.2.action-text",
+        "actionLink": "https://autofarm.gitbook.io/autofarm-network/how-tos/polygon-chain-matic/metamask-add-polygon-matic-network",
+        "icon": "/config/images/autofarm.png"
+    },
+    {
+        "id": 3,
+        "title": "instruction.steps.3.title",
+        "body": "instruction.steps.3.body",
+        "actionText": "instruction.steps.3.action-text",
+        "actionLink": "",
+        "icon": ""
+    },
+    {
+        "id": 4,
+        "title": "instruction.steps.4.title",
+        "body": "instruction.steps.4.body",
+        "actionText": "instruction.steps.4.action-text",
+        "actionLink": "",
+        "icon": ""
+    },
+    {
+        "id": 5,
+        "title": "instruction.steps.5.title",
+        "body": "instruction.steps.5.body",
+        "actionText": "instruction.steps.5.action-text",
+        "actionLink": "https://quickswap.exchange/#/swap?outputCurrency=0x01c4c105076bdb01ba329543ff99c85f4097a9c9",
+        "icon": "/config/images/quickswap.png"
+    }
+]

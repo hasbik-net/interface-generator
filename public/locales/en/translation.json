@@ -1,0 +1,176 @@
+{
+  "details": {
+    "title": "Token Distribution",
+    "description-1": "“If only I had noticed it earlier and invested just 46 dollars of my spare money, I would be a millionaire by now” - your wishes have been answered! The token has been created by the very same enthusiasts that missed their own jump to stardom.",
+    "description-2": "A decentralized community token with one main objective: provide a voice to all participants in the project. Expect an engaged and vibrant eco-system that puts community goodwill to use through humanitarian projects and more!",
+    "footer": "© 2021 Hasbik - token@hasbik.net"
+  },
+  "distribution": {
+    "wallets": {
+      "1": {
+        "title": "Community"
+      },
+      "2": {
+        "title": "Market"
+      },
+      "3": {
+        "title": "R&D"
+      },
+      "4": {
+        "title": "Hasbulla"
+      },
+      "5": {
+        "title": "Stakeholders"
+      },
+      "6": {
+        "title": "Founders"
+      }
+    }
+  },
+  "instruction": {
+    "title": "How to buy?",
+    "steps": {
+      "1": {
+        "title": "Create a MetaMask wallet",
+        "body": "Create a MetaMask Wallet using either a desktop computer or mobile device. That will allow you to buy, sell, send and receive HAS.",
+        "action-text": "metamask.io"
+      },
+      "2": {
+        "title": "Connect MetaMask with Polygon",
+        "body": "Follow the guide on",
+        "action-text": "autofarm.gitbook.io"
+      },
+      "3": {
+        "title": "Send MATIC to your wallet",
+        "body": "Send MATIC to your wallet. You can buy MATIC directly on MetaMask, or through exchanges like Coinbase, Crypto.com, KuCoin, Binance, etc. And then send them to your MetaMask wallet.",
+        "action-text": ""
+      },
+      "4": {
+        "title": "Connect your wallet to QuickSwap",
+        "body": "Access your wallet on QuickSwap by clicking ‘Connect to a wallet’ and then selecting MetaMask.",
+        "action-text": ""
+      },
+      "5": {
+        "title": "Trade MATIC for HAS",
+        "body": "You can start trading as soon as you have MATIC available. Press ‘Select a token’ and enter the token address, or search for it in the token list.",
+        "action-text": "quickswap.exchange"
+      }
+    }
+  },
+  "intro": {
+    "buy-has": "How to buy?",
+    "chain-title": "Chain",
+    "chain-name": "Polygon",
+    "discord-title": "Discord",
+    "discord-join": "Join",
+    "exchange-title": "Exchange",
+    "exchange-name": "QuickSwap",
+    "slogan": "A decentralized community-based venture token made for future crypto-billionaires. Missed the train on Doge and Shiba - fear not, Hasbik is here!",
+    "question": "What is HAS?",
+    "navigation": {
+      "links": {
+        "1": "Buy $HAS",
+        "2": "Roadmap",
+        "3": "Distribution"
+      }
+    }
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "phases": {
+      "1": {
+        "title": "Phase 1",
+        "deadline": "Q4 2021 – Q1 2022",
+        "description": "The very first phase is all about covering our technical bases, developing the fundamentals and really connecting with the community.",
+        "steps": {
+          "1": {
+            "title": "Deploy Hasbik to Polygon network",
+            "description": "Released on November 14, 2021. With a limited supply of 1 billion tokens, Hasbik is a community based social token."
+          },
+          "2": {
+            "title": "Community building",
+            "description": "The biggest and most important block in our chain is you – the community."
+          },
+          "3": {
+            "title": "Lock initial liquidity",
+            "description": "LP tokens to withdraw the funds from the liquidity pool are burned."
+          },
+          "4": {
+            "title": "Website Release v1",
+            "description": ""
+          },
+          "5": {
+            "title": "Publish lightpaper",
+            "description": ""
+          },
+          "6": {
+            "title": "Hasbik NFT collection",
+            "description": ""
+          },
+          "7": {
+            "title": "Network integration - ETH and BSC",
+            "description": ""
+          }
+        }
+      },
+      "2": {
+        "title": "Phase 2",
+        "deadline": "Q2 2022 – Q4 2022",
+        "description": "In the second phase we will dedicate our energy towards two objectives: entrenching our position on the market and developing our humanitarian program in collaboration with the community.",
+        "steps": {
+          "1": {
+            "title": "Publish white paper",
+            "description": ""
+          },
+          "2": {
+            "title": "Decentralized governance",
+            "description": ""
+          },
+          "3": {
+            "title": "Hasbik Stake",
+            "description": ""
+          },
+          "4": {
+            "title": "Hasbik Invest",
+            "description": ""
+          },
+          "5": {
+            "title": "Smart contract audit",
+            "description": ""
+          },
+          "6": {
+            "title": "HasbikVerse",
+            "description": ""
+          },
+          "7": {
+            "title": "Start humanitarian partnerships",
+            "description": ""
+          }
+        }
+      },
+      "3": {
+        "title": "Phase 3",
+        "deadline": "Q1 2023 – eternity",
+        "description": "The final step is executing the humanitarian programs designed by the community through the decentralized governance platform we will be using for the decision making.",
+        "steps": {
+          "1": {
+            "title": "Implement humanitarian program",
+            "description": ""
+          },
+          "2": {
+            "title": "Hasbik Game",
+            "description": ""
+          },
+          "3": {
+            "title": "Exchange listings",
+            "description": ""
+          },
+          "4": {
+            "title": "Proclaim Hasbik on planet Mars",
+            "description": ""
+          }
+        }
+      }
+    }
+  }
+}

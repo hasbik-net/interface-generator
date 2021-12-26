@@ -1,0 +1,13 @@
+
+<svg width="266px" height="325px" viewBox="0 0 266 325" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-28.0%" y="-28.0%" width="155.9%" height="155.9%" filterUnits="objectBoundingBox" id="filter-g23knpfua0-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.2">
+        <g id="Artboard" transform="translate(-694.000000, 0.000000)" fill="#19AEC2" stroke="#979797">
+            <circle id="Oval" filter="url(#filter-g23knpfua0-1)" cx="1083" cy="-54" r="269"></circle>
+        </g>
+    </g>
+</svg>

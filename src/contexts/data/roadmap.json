@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "title": "roadmap.phases.1.title",
+        "deadline": "roadmap.phases.1.deadline",
+        "description": "roadmap.phases.1.description",
+        "steps": [
+            {
+                "id": 1,
+                "title": "roadmap.phases.1.steps.1.title",
+                "description": "roadmap.phases.1.steps.1.description",
+                "isCompleted": true,
+                "links": [
+                    {
+                        "id": 1,
+                        "icon": "/config/images/polygon-round.svg",
+                        "url": "https://polygonscan.com/token/0x01c4c105076bdb01ba329543ff99c85f4097a9c9"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "roadmap.phases.1.steps.2.title",
+                "description": "roadmap.phases.1.steps.2.description",
+                "isCompleted": true,
+                "links": [
+                    {
+                        "id": 1,
+                        "icon": "/config/images/twitter.png",
+                        "url": "https://twitter.com/hasbik_net"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/config/images/telegram.png",
+                        "url": "https://t.me/hasbiktoken"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/config/images/instagram.png",
+                        "url": "https://www.instagram.com/hasbik_token/"
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/config/images/discord-purple.svg",
+                        "url": "https://discord.gg/VC54YrS5S2"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "roadmap.phases.1.steps.3.title",
+                "description": "roadmap.phases.1.steps.3.description",
+                "isCompleted": true,
+                "links": [
+                    {
+                        "id": 1,
+                        "icon": "/config/images/polygon-round-inverted.svg",
+                        "url": "https://polygonscan.com/tx/0xc7c8eec98d7fffcae0796a52ffb1bb4616317a1b9f5ce99fa1fbf97c9b745f0b"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "roadmap.phases.1.steps.4.title",
+                "description": "roadmap.phases.1.steps.4.description"
+            },
+            {
+                "id": 5,
+                "title": "roadmap.phases.1.steps.5.title",
+                "description": "roadmap.phases.1.steps.5.description"
+            },
+            {
+                "id": 6,
+                "title": "roadmap.phases.1.steps.6.title",
+                "description": "roadmap.phases.1.steps.6.description"
+            },
+            {
+                "id": 7,
+                "title": "roadmap.phases.1.steps.7.title",
+                "description": "roadmap.phases.1.steps.7.description"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "roadmap.phases.2.title",
+        "deadline": "roadmap.phases.2.deadline",
+        "description": "roadmap.phases.2.description",
+        "steps": [
+            {
+                "id": 1,
+                "title": "roadmap.phases.2.steps.1.title",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "title": "roadmap.phases.2.steps.2.title",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "title": "roadmap.phases.2.steps.3.title",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "title": "roadmap.phases.2.steps.4.title",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "title": "roadmap.phases.2.steps.5.title",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "title": "roadmap.phases.2.steps.6.title",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "title": "roadmap.phases.2.steps.7.title",
+                "description": "roadmap.phases.2.steps.7.description"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "roadmap.phases.3.title",
+        "deadline": "roadmap.phases.3.deadline",
+        "description": "roadmap.phases.3.description",
+        "steps": [
+            {
+                "id": 1,
+                "title": "roadmap.phases.3.steps.1.title",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "title": "roadmap.phases.3.steps.2.title",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "title": "roadmap.phases.3.steps.3.title",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "title": "roadmap.phases.3.steps.4.title",
+                "description": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+<svg width="486px" height="526px" viewBox="0 0 486 526" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-28.0%" y="-28.0%" width="155.9%" height="155.9%" filterUnits="objectBoundingBox" id="filter-sn054ffqt3-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.2">
+        <g id="Artboard" transform="translate(0.000000, -1874.000000)" fill="#C21919" stroke="#979797">
+            <circle id="Oval" filter="url(#filter-sn054ffqt3-1)" cx="92" cy="2268" r="269"></circle>
+        </g>
+    </g>
+</svg>
