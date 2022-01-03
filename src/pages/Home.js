@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from "react-i18next";
+import { useQuickSwap } from '../contexts/QuickSwapContext';
+import { stringToCurrency } from '../helpers/Formatters';
 import styled from 'styled-components';
 import Button from '../components/shared/Button';
 import LanguagePicker from './../components/LanguagePicker';
@@ -42,16 +44,37 @@ const Name = styled.div`
   margin-bottom: 0.1em;
 `;
 
-const Footer = styled.div`
+const Price = styled.div`
+  margin-right: 12px;
+`;
+
+const SubHeaderLeft = styled.div`
+  display: flex;
+  font-weight: 600;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0.8;
+  font-size: 0.8em;
+  padding-top: 8px;
+  color: var(--green);
+
+  @media (max-width: 480px) {
+    justify-content: center;
+  }
+`;
+
+const SubHeaderRight = styled.div`
   display: flex;
   font-weight: 400;
   justify-content: flex-end;
+  align-items: center;
   opacity: 0.8;
   font-size: 0.8em;
   font-weight: 300;
   padding-top: 8px;
 
   @media (max-width: 480px) {
+    padding-top: 16px;
     justify-content: center;
   }
 `;
@@ -117,6 +140,16 @@ const Link = styled.a`
 
 const Home = () => {
   const { t } = useTranslation();
+  const { getQuickSwapPrice } = useQuickSwap();
+  const [price, setPrice] = useState();
+
+  useEffect(() => {
+    (async () => {
+      let _price = await getQuickSwapPrice();
+
+      setPrice(stringToCurrency(_price));
+    })()
+  }, [])
 
   const copyToClipboard = (e) => {
     e.preventDefault();
@@ -135,19 +168,41 @@ const Home = () => {
     <Section>
       <Header />
 
-      <Footer onClick={copyToClipboard}>
-        {"0x01c4c105076bdb01ba329543ff99c85f4097a9c9"}
+      <s.Row>
+        <s.Column>
+          <SubHeaderLeft>
+            <Price>
+              {price}
+            </Price>
+            -
+            <Button
+              background='transparent'
+              icon={'/config/images/quickswap.png'}
+              icon2={'/config/images/polygon-round.svg'}
+              iconSize='16px'
+              link={'https://info.quickswap.exchange/#/pair/0xf4fa96c470814e3e321cec3fbf28f4e05e5edb4e'}
+              text={"HAS-WMATIC"}
+            />
 
-        <img
-          src={"/config/images/copy.svg"}
-          height={16}
-          width={16}
-          style={{
-            marginLeft: '0.5em',
-            cursor: 'pointer'
-          }}
-        />
-      </Footer>
+          </SubHeaderLeft>
+        </s.Column>
+
+        <s.Column>
+          <SubHeaderRight onClick={copyToClipboard}>
+            {"0x01c4c105076bdb01ba329543ff99c85f4097a9c9"}
+
+            <img
+              src={"/config/images/copy.svg"}
+              height={16}
+              width={16}
+              style={{
+                marginLeft: '0.5em',
+                cursor: 'pointer'
+              }}
+            />
+          </SubHeaderRight>
+        </s.Column>
+      </s.Row>
 
       <TextContainer>
         <s.Title>

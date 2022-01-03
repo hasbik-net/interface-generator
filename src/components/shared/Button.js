@@ -11,6 +11,9 @@ const Container = styled.button`
   display: flex;
   font-weight: 600;
   gap: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
   height: 36px;
   margin-left: ${({ background }) => (background === 'transparent' ? '12px' : '0')};
   margin-right: ${({ background }) => (background === 'transparent' ? '12px' : '0')};
@@ -26,6 +29,7 @@ const Button = ({
   background,
   color,
   icon,
+  icon2,
   iconSize,
   link,
   text,
@@ -35,7 +39,7 @@ const Button = ({
   let _iconSize = 24;
 
   const jump = (link) => {
-    window.location.href = link; 
+    window.location.href = link;
   }
 
   return (
@@ -56,6 +60,16 @@ const Button = ({
           height={iconSize ? iconSize : _iconSize}
           width={iconSize ? iconSize : _iconSize}
           src={icon}
+        />
+        :
+        <></>
+      }
+
+      {icon2 ?
+        <img
+          height={iconSize ? iconSize : _iconSize}
+          width={iconSize ? iconSize : _iconSize}
+          src={icon2}
         />
         :
         <></>
