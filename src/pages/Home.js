@@ -140,12 +140,12 @@ const Link = styled.a`
 
 const Home = () => {
   const { t } = useTranslation();
-  const { getQuickSwapPrice } = useQuickSwap();
+  const { getHasbikPrice } = useQuickSwap();
   const [price, setPrice] = useState();
 
   useEffect(() => {
     (async () => {
-      let _price = await getQuickSwapPrice();
+      let _price = await getHasbikPrice();
 
       setPrice(stringToCurrency(_price));
     })()
@@ -171,10 +171,18 @@ const Home = () => {
       <s.Row>
         <s.Column>
           <SubHeaderLeft>
-            <Price>
-              {price}
-            </Price>
-            -
+            {price === undefined ?
+              <img
+                src={"/config/images/loading.svg"}
+                height={16}
+                width={16}
+              />
+              :
+              <Price>
+                {price}
+              </Price>
+            }
+
             <Button
               background='transparent'
               icon={'/config/images/quickswap.png'}
@@ -183,7 +191,6 @@ const Home = () => {
               link={'https://info.quickswap.exchange/#/pair/0xf4fa96c470814e3e321cec3fbf28f4e05e5edb4e'}
               text={"HAS-WMATIC"}
             />
-
           </SubHeaderLeft>
         </s.Column>
 
