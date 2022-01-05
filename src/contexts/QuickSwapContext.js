@@ -5,7 +5,7 @@ import { QUICKSWAP_PRICE_USD, QUICKSWAP_ETH_PRICE } from './queries/QuickSwap'
 const QuickSwapContext = React.createContext();
 
 const thegraphClient = new ApolloClient({
-    uri: 'https://polygon.furadao.org/subgraphs/name/quickswap',
+    uri: 'https://api.thegraph.com/subgraphs/name/sameepsi/quickswap06',
     cache: new InMemoryCache()
 });
 
