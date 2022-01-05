@@ -35,18 +35,14 @@ const LogoWrapper = styled.div`
   gap: 1em;
 `;
 
-const Logo = styled.div`
-  
-`;
+const Logo = styled.div``;
 
 const Name = styled.div`
   font-size: 2.4em;
   margin-bottom: 0.1em;
 `;
 
-const Price = styled.div`
-  margin-right: 12px;
-`;
+const Price = styled.div``;
 
 const SubHeaderLeft = styled.div`
   display: flex;
@@ -55,8 +51,8 @@ const SubHeaderLeft = styled.div`
   align-items: center;
   opacity: 0.8;
   font-size: 0.8em;
-  padding-top: 8px;
   color: var(--green);
+  height: 100%;
 
   @media (max-width: 480px) {
     justify-content: center;
@@ -71,7 +67,7 @@ const SubHeaderRight = styled.div`
   opacity: 0.8;
   font-size: 0.8em;
   font-weight: 300;
-  padding-top: 8px;
+  height: 100%;
 
   @media (max-width: 480px) {
     padding-top: 16px;
