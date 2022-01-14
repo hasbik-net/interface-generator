@@ -35,7 +35,11 @@ const LogoWrapper = styled.div`
   gap: 1em;
 `;
 
-const Logo = styled.div``;
+const Logo = styled.div`
+  img {
+    border-radius: 50%;
+  }
+`;
 
 const Name = styled.div`
   font-size: 2.4em;
@@ -251,7 +255,7 @@ const Header = () => {
       <LogoWrapper>
         <Logo>
           <img
-            src={"/config/images/h-art.png"}
+            src={"/config/images/h-logo-512.png"}
             height={"64em"}
             width={"64em"}
           />
