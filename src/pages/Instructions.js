@@ -35,10 +35,6 @@ const Instructions = () => {
       </div>
       
       <Offset />
-
-      <Background
-        art={"/config/images/h-art.png"}
-      />
     </Section>
   )
 }
