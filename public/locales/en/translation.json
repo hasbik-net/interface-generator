@@ -2,7 +2,7 @@
   "details": {
     "title": "Token Distribution",
     "description-1": "“If only I had noticed it earlier and invested just 46 dollars of my spare money, I would be a millionaire by now” - your wishes have been answered! The token has been created by the very same enthusiasts that missed their own jump to stardom.",
-    "description-2": "A decentralized community token with one main objective: provide a voice to all participants in the project. Expect an engaged and vibrant eco-system that puts community goodwill to use through humanitarian projects and more!",
+    "description-2": "Hasbik HAS token is a community-based venture token build on Polygon blockchain. Our main goal to bring the virtual and the real worlds together.",
     "footer": "© 2021 Hasbik - token@hasbik.net"
   },
   "distribution": {
@@ -17,7 +17,7 @@
         "title": "R&D"
       },
       "4": {
-        "title": "Hasbulla"
+        "title": "Charity"
       },
       "5": {
         "title": "Stakeholders"
@@ -65,7 +65,7 @@
     "discord-join": "Join",
     "exchange-title": "Exchange",
     "exchange-name": "QuickSwap",
-    "slogan": "A decentralized community-based venture token made for future crypto-billionaires. Missed the train on Doge and Shiba - fear not, Hasbik is here!",
+    "slogan": "Hasbik HAS token is a community-based venture token build on Polygon blockchain. Our main goal to bring the virtual and the real worlds together.",
     "question": "What is HAS?",
     "navigation": {
       "links": {
@@ -98,52 +98,32 @@
           "4": {
             "title": "Website Release v1",
             "description": ""
-          },
-          "5": {
-            "title": "Publish lightpaper",
-            "description": ""
-          },
-          "6": {
-            "title": "Hasbik NFT collection",
-            "description": ""
-          },
-          "7": {
-            "title": "Network integration - ETH and BSC",
-            "description": ""
           }
         }
       },
       "2": {
         "title": "Phase 2",
         "deadline": "Q2 2022 – Q4 2022",
-        "description": "In the second phase we will dedicate our energy towards two objectives: entrenching our position on the market and developing our humanitarian program in collaboration with the community.",
+        "description": "In the second phase we will dedicate our energy towards two objectives: entrenching our position on the market and release of NFT collection in collaboration with the community.",
         "steps": {
           "1": {
-            "title": "Publish white paper",
+            "title": "Hasbik NFT Collection",
             "description": ""
           },
           "2": {
-            "title": "Decentralized governance",
+            "title": "General Website upgrade V2",
             "description": ""
           },
           "3": {
-            "title": "Hasbik Stake",
+            "title": "Publish white paper",
             "description": ""
           },
           "4": {
-            "title": "Hasbik Invest",
+            "title": "Hasbik Stake",
             "description": ""
           },
           "5": {
             "title": "Smart contract audit",
-            "description": ""
-          },
-          "6": {
-            "title": "HasbikVerse",
-            "description": ""
-          },
-          "7": {
-            "title": "Start humanitarian partnerships",
             "description": ""
           }
         }
@@ -151,22 +131,26 @@
       "3": {
         "title": "Phase 3",
         "deadline": "Q1 2023 – eternity",
-        "description": "The final step is executing the humanitarian programs designed by the community through the decentralized governance platform we will be using for the decision making.",
+        "description": "The final step is finalising the settle of HasbikVerse and executing the humanitarian programs designed by the community through the decentralized governance platform we will be using for the decision making.",
         "steps": {
           "1": {
-            "title": "Implement humanitarian program",
+            "title": "Decentralized governance",
             "description": ""
           },
           "2": {
-            "title": "Hasbik Game",
+            "title": "HasbikVerse",
             "description": ""
           },
           "3": {
-            "title": "Exchange listings",
+            "title": "Implement humanitarian program",
             "description": ""
           },
           "4": {
-            "title": "Proclaim Hasbik on planet Mars",
+            "title": "Exchange listings",
+            "description": ""
+          },
+          "5": {
+            "title": "Proclaim Hasbik on planet Mars",
             "description": ""
           }
         }
